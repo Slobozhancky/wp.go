@@ -1,0 +1,24 @@
+# Ігнорувати ядро WordPress
+/wp-admin/
+/wp-content/
+/wp-includes/
+
+# Ігнорувати медіафайли
+/wp-content/uploads/
+
+# Ігнорувати стандартні теми
+/wp-content/themes/twenty*/
+
+# Ігнорувати кеш та логи
+*.log
+*.cache
+error_log
+debug.log
+
+# Ігнорувати конфіденційні файли
+wp-config.php
+.env
+
+# Ігнорувати node_modules та інші пакети
+node_modules/
+vendor/
