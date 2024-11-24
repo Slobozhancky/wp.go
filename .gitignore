@@ -1,13 +1,16 @@
 # Ігнорувати ядро WordPress
 /wp-admin/
-/wp-content/
-/wp-includes/
+/wp-includes
+/wp-content/plugins
+/wp-content/languages/plugins
 
 # Ігнорувати медіафайли
 /wp-content/uploads/
 
 # Ігнорувати стандартні теми
 /wp-content/themes/twenty*/
+/wp-content/themes/kadence
+/wp-content/themes/hello-biz
 
 # Ігнорувати кеш та логи
 *.log

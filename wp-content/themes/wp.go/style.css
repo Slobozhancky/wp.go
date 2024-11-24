@@ -1,0 +1,22 @@
+/*
+ Theme Name: wp.go Theme
+ Theme URI: https://example.com
+ Author: Slobozhancky
+ Author URI: https://example.com
+ Description: Базова батьківська тема.
+ Version: 1.0
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
