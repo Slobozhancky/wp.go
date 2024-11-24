@@ -20,3 +20,30 @@ footer {
     background-color: #222;
     color: #fff;
 }
+
+/* Стилізація обгортки меню */
+.header-menu {
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Стилізація списку меню */
+.header-menu .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+/* Стилізація посилань у меню */
+.header-menu .menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.header-menu .menu li a:hover {
+    color: #007bff;
+}
